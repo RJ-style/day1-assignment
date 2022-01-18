@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="rjstyle" content="">
+    <title>RJstyle</title>
+    <style type="text/css" media="all">
+    body{
+       box-sizing: border-box;
+    }
+      h1{
+        text-align: center;
+        color:blue;
+        position: relative;
+        top: 50%;
+        transform: translateX(-50%,-50%);
+        background-color: #71b99fae;
+        padding: 1rem;
+        border-radius:5px ;
+      }
+      fieldset{
+        border-radius: 8px;
+        border: 1px solid #bcc4c0c4;
+        background-color: #80909579;
+      }
+      legend {
+        background-color: #ffffff;
+        border-radius: 5px;
+        padding: 0.5rem;
+      }
+      form{
+       
+        text-align: center;
+      }
+      input{
+        border-radius: 8px;
+        background-color: #29d0f9;
+        border: transparent;
+        height: 2rem;
+        top: 1%;
+        transform: translateY(-180%) translateX(20%);
+      }
+      pre{
+        font-family: Verdana;
+        left: 40%;
+        transform: translateX(-40%);
+      }
+      #signin{
+        background-color: #ff009e8f;
+        left:100%;
+      transform: translate(300%,10%);
+      }
+      #p{
+        background-color: #effacc5d;
+        padding: 2rem;
+        top: 50%;
+        color: #000cff8a;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to my page!</h1>
+  
+    
+          <form method="post"  action="www.rjstyle.com" target="_blank">
+      <fieldset>
+      <pre><label for="Username">
+        Username :
+      </label></pre>
+      <input type="text" name="Username" id="Username" value="" required=""/>
+      <br />
+      <br />
+      <pre><label for="Email">
+        Email :   
+      </label></pre>
+      <input type="email" name="Email" id="Email" value="" required="" />
+      <br />
+      <br />
+      <pre><label for="DOB">
+        DOB   :   
+      </label></pre>
+      <input type="date" name="DOB" id="DOB" value="" required=""/>
+    
+    </fieldset>
+    <input type="submit" name="signin" id="signin" value="Sign in" />
+    <p>
+      new to here?.. <a href="#">sign up!</a>
+    </p>
+    </form>
+    <p id="p">
+      This is my website's login page!.You should enter your email . There will be useful for you. Thank you for visiting us!
+    </p>
+  </body>
+</html>
